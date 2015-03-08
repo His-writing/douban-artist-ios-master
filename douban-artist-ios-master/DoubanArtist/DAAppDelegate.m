@@ -38,6 +38,9 @@
     RESideMenu *sideMenuViewController = [[RESideMenu alloc] initWithContentViewController:appRootController
                                                                     leftMenuViewController:leftMenuC
                                                                    rightMenuViewController:nil];
+    
+    
+    
     sideMenuViewController.backgroundImage = [UIImage imageNamed:@"Stars"];
     sideMenuViewController.menuPreferredStatusBarStyle = 1; // UIStatusBarStyleLightContent
     sideMenuViewController.delegate = self;

@@ -16,8 +16,12 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *menuTable;
 
-- (IBAction)clickSettingBtn:(id)sender;
+- (IBAction)logButton:(id)sender;
 
+
+//设置
+- (IBAction)clickSettingBtn:(id)sender;
+//关于
 - (IBAction)clickAboutBtn:(id)sender;
 
 @end
